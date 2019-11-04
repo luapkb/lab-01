@@ -1,33 +1,32 @@
-body {
-  display: flex;
-  flex-direction: column;
-  background-color: blanchedalmond;
-}
-@media only screen 
-and (min-width: 480px){
 
-  div{
-    flex-direction: row;
+@media (min-width: 480px) and (max-width: 767px){
+
+  /* div{
     box-sizing: border-box;
     text-align: center;
+  } */
+
+  #upsec{
+    display: flex;
+    flex-direction: column;
 
   }
-  #1{
+   #one{
     width: 480px;
     height: 75px;
     background-color: orange;
   }
-  #2{
+  #two{
     width: 480px;
     height: 150px;
     background-color: orangered;
   }
-  #3{
+  #three{
     width: 480px;
     height: 125px;
     background-color: rgb(255, 0, 0);
   }
-  #4{
+  #four{
     width: 480px;
     height: 125px;
     background-color: rgb(255, 0, 98);
@@ -36,8 +35,13 @@ and (min-width: 480px){
     display: flex;
     flex-direction: row; 
     flex-wrap: wrap;
-   }
+  }
 
+  #lowerSec {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   .lower{
     width: 240px;
     height: 250px;
@@ -50,4 +54,8 @@ and (min-width: 480px){
    background-color: rgb(135, 112, 218);
   }
   
-}
+/* }
+@media only screen 
+and (min-width: 767px){
+  
+} */

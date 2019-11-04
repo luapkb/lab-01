@@ -54,8 +54,51 @@
    background-color: rgb(135, 112, 218);
   }
   
-/* }
+}
 @media only screen 
-and (min-width: 767px){
-  
-} */
+and (min-width: 768px){
+
+  .midland{
+    display: flex;
+    flex-direction: row;
+    
+
+  }
+   #a{
+    width: 960px;
+    height: 100px;
+    background-color: orange;
+  }
+  #b{
+    width: 200px;
+    height: 600px;
+    background-color: orangered;
+  }
+  #c{
+    display: flex;
+    width: 380px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+  }
+  #d{
+    width: 380px;
+    height: 200px;
+    background-color: rgb(255, 0, 98);
+  }
+  #lowSec{
+    display: flex;
+    flex-direction: row; 
+  }
+
+    .lower{
+    width: 190px;
+    height: 250px;
+    background-color: orchid;
+  }
+    
+  #bottom{
+   width: 760px; 
+   height: 150px;
+   background-color: rgb(135, 112, 218);
+  } 
+}

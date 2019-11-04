@@ -1,0 +1,104 @@
+
+@media (min-width: 480px) and (max-width: 767px){
+
+  /* div{
+    box-sizing: border-box;
+    text-align: center;
+  } */
+
+  #upsec{
+    display: flex;
+    flex-direction: column;
+
+  }
+   #one{
+    width: 480px;
+    height: 75px;
+    background-color: orange;
+  }
+  #two{
+    width: 480px;
+    height: 150px;
+    background-color: orangered;
+  }
+  #three{
+    width: 480px;
+    height: 125px;
+    background-color: rgb(255, 0, 0);
+  }
+  #four{
+    width: 480px;
+    height: 125px;
+    background-color: rgb(255, 0, 98);
+  }
+  #lowSec{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+  }
+
+  #lowerSec {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .lower{
+    width: 240px;
+    height: 250px;
+    background-color: orchid;
+  }
+    
+  #bottom{
+   width: 480px; 
+   height: 80px;
+   background-color: rgb(135, 112, 218);
+  }
+  
+}
+@media only screen 
+and (min-width: 768px){
+
+  .midland{
+    display: flex;
+    flex-direction: row;
+    
+
+  }
+   #a{
+    width: 960px;
+    height: 100px;
+    background-color: orange;
+  }
+  #b{
+    width: 200px;
+    height: 600px;
+    background-color: orangered;
+  }
+  #c{
+    display: flex;
+    width: 380px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+  }
+  #d{
+    width: 380px;
+    height: 200px;
+    background-color: rgb(255, 0, 98);
+  }
+  #lowSec{
+    display: flex;
+    flex-direction: row; 
+  }
+
+    .lower{
+    width: 190px;
+    height: 250px;
+    background-color: orchid;
+  }
+    
+  #bottom{
+   width: 760px; 
+   height: 150px;
+   background-color: rgb(135, 112, 218);
+  } 
+}
